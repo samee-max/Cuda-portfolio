@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <script src="https://kit.fontawesome.com/dc6bf4c005.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="shortcut icon" href="resources/img/3rd.png" type="image/png">
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <div id="logo-img">
+                <img src="resources/img/logo.png" alt="LOGO">
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#container">home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#head-box">portfolio</a></li>
+                    <li><a href="#slider">exibitions</a></li>
+                    <li><a href="#contact">contact us</a></li>
+                <ul>
+            </nav>
+        </header>
+        <div id="box">
+            <div id="head-box">
+                <div class="head-img faded">
+                    <img src="resources/img/Head1.png" alt="1st" class="h-img">
+                </div>
+                <div class="head-img faded">
+                    <img src="resources/img/head2.png" alt="2nd" class="h-img">
+                </div>
+                <div class="head-img faded">
+                    <img src="resources/img/H3.png" alt="3rd" class="h-img">
+                </div>
+                <div class="head-img faded">
+                    <img src="resources/img/head4.png" alt="4th" class="h-img">
+                </div>
+                <div class="head-img faded">
+                    <img src="resources/img/head5.png" alt="5th" class="h-img">
+                </div>
+            </div>
+            <section id="slider">
+                <ul>
+                    <a id="prev" class="arrow" onclick="plusSlides(-1)"></a>
+                    <li><a onclick="currentSlide(1)" class="dot"><img src="resources/img/1st.png" alt="Taalgachh" title="Taalgachh"></ack=></li>
+                    <li><a onclick="currentSlide(2)" class="dot"><img src="resources/img/2nd.png" alt="Motorcycle Jhop" title="Motor cycle Jhop"></ack=></li>
+                    <li><a onclick="currentSlide(3)" class="dot"><img src="resources/img/3rd.png" alt="Motorcycle" title="Motorcycle"></ack=></li>
+                    <li><a onclick="currentSlide(4)" class="dot"><img src="resources/img/4th.png" alt="Lamp" title="Lamp"></a></li>
+                    <li><a onclick="currentSlide(5)" class="dot"><img src="resources/img/5th.png" alt="Flower" title="Flower"></a></li>
+                    <a id="next" class="arrow" onclick="plusSlides(1)"></a>
+                </ul>    
+            </section>
+        </div>    
+        <div id="contact">
+            <p id="contact-header">contact with me</p>
+            <ul>
+                <li><a href="#" target="_blank" id="dot"><div class="s-icon"><i class="fas fa-circle circle-1"></i><i class="fas fa-circle circle-2"></i></div></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><div class="s-icon"><i class="fab fa-twitter fa-2x" id="twitt"></i></div></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><div class="s-icon"><i class="fab fa-facebook-f fa-2x" id="fb"></i></div></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><div class="s-icon"><i class="fab fa-linkedin-in fa-2x" id="in"></i></div></a></li>
+                <li><a href="https://blog.hootsuite.com/" target="_blank"><div class="s-icon"><i class="fas fa-plus fa-2x" id="plus"></i></div></a></li>
+            </ul>
+        </div>
+        <footer>
+        <div id="footer">
+            <h3 id="footer-h">Photography  &copy;</h3>
+                <img src="resources/img/ball.png" alt="BALL" id="footer-click">
+        </div>
+        </footer>
+    </div>
+
+    <script src="resources/js/index.js"></script>
+</body>
+</html>
